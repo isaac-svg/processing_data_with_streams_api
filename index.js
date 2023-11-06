@@ -28,6 +28,8 @@ createServer(async (request, response) => {
 
   try {
     const filename = './data/animeflv.csv'
+    console.log(filename)
+    path.join(process.cwd(), 'data');
     response.writeHead(200, headers)
 
    
