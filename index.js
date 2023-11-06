@@ -5,6 +5,7 @@ import { TransformStream } from 'node:stream/web'
 import { setTimeout } from 'node:timers/promises'
 import { stat } from 'node:fs/promises'
 import csvtojson from 'csvtojson'
+import path from 'node:path'
 const PORT = 3000
 
 createServer(async (request, response) => {
